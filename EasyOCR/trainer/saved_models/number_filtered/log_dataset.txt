@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['train_images']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: train_images
+sub-directory:	/train_images	 num samples: 4952
+num total samples of train_images: 4952 x 1.0 (total_data_usage_ratio) = 4952
+num samples of train_images per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/val_images	 dataset: /
+sub-directory:	/.	 num samples: 1000
+--------------------------------------------------------------------------------
